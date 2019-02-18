@@ -1,0 +1,27 @@
+{
+  "name": "simple-stateloader",
+  "version": "1.0.0",
+  "description": "Store and retrieve JSON from local storage",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/**"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inglec/simple-stateloader.git"
+  },
+  "author": "Ciarán Ingle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inglec/simple-stateloader/issues"
+  },
+  "homepage": "https://github.com/inglec/simple-stateloader#readme",
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  }
+}
